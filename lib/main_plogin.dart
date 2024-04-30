@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'pages/my_home_page.dart';
+import 'plogin/pagina_login.dart';
 
 void main() {
   runApp(const MyApp());
@@ -11,11 +11,11 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Ejemplo Navigator',
+      title: 'Ejemplo Navigator con envío de datos',
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const MyHomePage(),
+      home: const PaginaLogin(),
     );}}
 
